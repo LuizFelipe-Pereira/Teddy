@@ -1,0 +1,52 @@
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Teddy — Produtos</title>
+<link rel="stylesheet" href="CSS/produtos.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<a href="index.html" class="brand"><img src="imagens/logotipo.jpg" class="logo">Teddy</a>
+<nav class="site-nav">
+<a href="index.html">Início</a>
+<a href="produtos.html" class="active">Produtos</a>
+<a href="sobre.html">Sobre</a>
+<a href="contatos.html">Contato</a>
+<a href="carrinho.html">Carrinho
+    (<span id="contador-carrinho">0</span>)
+</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Nossas pelúcias</h1>
+<div class="grid">
+<article class="card">
+<img src="imagens/Fredbear-product.jpg" alt="Pelúcia 1">
+<h3>Fredbear</h3>
+<p>R$ 229,90</p>
+<button class="add-carrinho" data-name="Pelúcia Fredbear" data-price="229,90">Adicionar ao carrinho</button>
+</article>
+<article class="card">
+<img src="imagens/SpringBonnie-product.avif" alt="Pelúcia 2">
+<h3>Spring-Bonnie</h3>
+<p>R$ 199,90</p>
+<button class="add-carrinho" data-name="Pelúcia Spring-Bonnie" data-price="199,90">Adicionar ao carrinho</button>
+</article>
+</div>
+</main>
+
+
+<footer>
+<p>© <span id="year"></span> Teddy — Todos os direitos reservados.</p>
+</footer>
+
+
+<script src="produtos.js"></script>
+<script src="carrinho-contador.js"></script>
+</body>
+</html>

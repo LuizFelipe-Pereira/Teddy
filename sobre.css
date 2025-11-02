@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f2f6;
+  color: #333;
+}
+
+.site-header {
+  background: #ffffff;
+  padding: 10px 20px;
+  color: #070000;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: #000000;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.menu a.active {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  transform: translateY(30px);
+  transition: all 1s ease;
+  color:rgb(0, 0, 0);
+}
+
+.texto.visivel {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.logo {
+    width: 40px;
+    margin-left: .5rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000408;
+    font-weight: 700;
+}
+
+.site-footer{
+    text-align: center;
+    color: #777;
+    padding: 1rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000408;
+    font-weight: 700;
+}
+
+.logo {
+    width: 40px;
+    margin-left: .5rem;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 1rem;
+}
+
+.site-nav a.active,
+.site-nav a:hover {
+    color: #000203;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .05);
+    text-align: center;
+}
+
+
+.card img {
+    width: 90%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+
+.add-carrinho {
+    background: #000000;
+    color: #fff;
+    border: 0;
+    padding: .6rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    color: #777;
+    padding: 1rem;
+    margin-top: 2rem;
+}

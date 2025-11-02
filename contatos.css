@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f2f6;
+  color: #333;
+}
+
+.site-header {
+  background: #8d8686;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: #000000;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.menu a.active {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #8d8d96;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #363535;
+}
+
+.mensagem-sucesso {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.logo { width: 40px; height: 40px; }
+
+.brand {
+display: flex;
+align-items: center;
+gap: .5rem;
+text-decoration: none;
+color: #000000;
+font-weight: 700;
+}
+
+footer {
+text-align: center;
+color: #777;
+margin-top: 2rem;
+padding: 1rem 0;
+}
